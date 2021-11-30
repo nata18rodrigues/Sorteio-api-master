@@ -1,0 +1,29 @@
+{
+  "name": "Sorteio-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:danielbarbosadelima1998/Sorteio-api.git",
+  "author": "Daniel Barbosa de Lima <daniel.lima@ikatec.com.br>",
+  "license": "MIT",
+  "scripts": {
+    "nodemon": "node index.js",
+    "dev": "nodemon"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "pg": "^8.5.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.5.0",
+    "validator": "^13.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.20.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.1",
+    "nodemon": "^2.0.2",
+    "sequelize-cli": "^6.2.0"
+  }
+}
